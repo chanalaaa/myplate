@@ -1,10 +1,7 @@
 @import 'compass/reset';
 @import 'compass';
 @import 'font-face';
-
-body {
-   
-}
+body {}
 
 
 /*
@@ -21,8 +18,8 @@ $lg: "screen and (min-width: 960px)";
 }
 
 @mixin bg_img($uri) {
+    background-image: url($uri);
     @include background-size(cover);
-    background: image-url($uri);
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
