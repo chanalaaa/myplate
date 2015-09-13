@@ -402,6 +402,20 @@ $md-600: "screen and (min-width: 600px)";
 $md: "screen and (min-width: 780px)";
 $lg: "screen and (min-width: 960px)";
 */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
 /* 
 by Chanala Wilangka
 on

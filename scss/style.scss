@@ -12,10 +12,18 @@ $md: "screen and (min-width: 780px)";
 $lg: "screen and (min-width: 960px)";
 */
 
-@mixin clearfix {
-    content: " ";
-    zoom: 1;
-    clear: both;
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
 }
 
 @mixin bg_img($uri) {
