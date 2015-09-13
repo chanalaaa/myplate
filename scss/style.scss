@@ -1,7 +1,8 @@
-@import 'compass/reset';
+//@import 'compass/reset';
+@import 'normalize';
 @import 'compass';
 @import 'font-face';
-body {}
+
 
 
 /*
@@ -12,8 +13,8 @@ $lg: "screen and (min-width: 960px)";
 */
 
 @mixin clearfix {
-    zoom: 1;
     content: " ";
+    zoom: 1;
     clear: both;
 }
 
@@ -26,10 +27,7 @@ $lg: "screen and (min-width: 960px)";
     height: 100%;
 }
 
-#wrapper {
-    overflow: hidden;
-    width: 100%;
-}
+#wrapper {}
 
 @import 'header';
 @import 'content';
