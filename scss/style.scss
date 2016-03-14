@@ -1,6 +1,6 @@
 //@import 'compass/reset';
 @import 'normalize';
-@import 'compass';
+//@import 'compass';
 @import 'font-face';
 
 
@@ -18,14 +18,13 @@ $lg: "screen and (min-width: 960px)";
   display: table;
 }
 
-.clearfix:after {
+.clearfix:after { 
   clear: both;
 }
 
 .clearfix {
   *zoom: 1;
-}
-
+} 
 @mixin bg_img($uri) {
     background-image: url($uri);
     @include background-size(cover);
@@ -37,6 +36,6 @@ $lg: "screen and (min-width: 960px)";
 
 #wrapper {}
 
-@import 'header';
+@import 'header'; 
 @import 'content';
-@import 'footer';
+@import 'footer'; 
