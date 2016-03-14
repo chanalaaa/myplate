@@ -15,11 +15,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://chanalaaa@bitbucket.org/chanalaaa/ptt-ess.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/chanalaaa/ptt-ess#readme"
 }
