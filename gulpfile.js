@@ -3,12 +3,14 @@ var sass = require('gulp-ruby-sass');
 //var browserSync = require('browser-sync');
 var minifycss = require('gulp-minify-css');
 var autoprefixer = require('gulp-autoprefixer');
-
+var autoprefixerOptions = {
+  browsers: ['last 2 versions', '> 1%', 'Firefox ESR', "ie 8", "ie 7"]
+};
 gulp.task('sass', function() {
     return sass('scss/**/*.scss',{noCache: true})
         .on('error', sass.logError)
         .pipe(minifycss())
-        .pipe(autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7"))
+        .pipe(autoprefixer(autoprefixerOptions))
         .pipe(gulp.dest('css')).on('error', sass.logError);
 
 });
