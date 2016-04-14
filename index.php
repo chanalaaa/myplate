@@ -3,7 +3,7 @@
 
 <head>
     <title></title>
-    <?php include("include.php"); ?>
+    <?php include("views/include.php"); ?>
 </head>
 
 <body>
