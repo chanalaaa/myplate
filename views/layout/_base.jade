@@ -8,9 +8,7 @@ html
 		block title
 			title hello
 
-		block js
 			script(type="text/javascript", src="js/vendors/jquery_v2.1.4.min.js?v=1001")
-			script(type="text/javascript", src="js/main.js")
 
 		block css
 			link(rel="shortcut icon", type="image/x-icon", href="")
@@ -20,6 +18,8 @@ html
 		#wrapper
 			block body
 				p this content
-
-
+		
+		script(type="text/javascript", src="js/main.js")
+		block js
+			//- script here
 
