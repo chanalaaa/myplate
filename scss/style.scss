@@ -1,9 +1,9 @@
 //@import 'compass/reset';
-@import 'normalize';
+@import './base/normalize';
 //@import 'compass';
-@import 'font-face'; 
-@import 'const'; 
+@import './component/font-face'; 
+@import './base/const'; 
 
-@import 'header'; 
-@import 'content';
-@import 'footer'; 
+@import './layout/header'; 
+@import './layout/index';
+@import './layout/footer'; 
