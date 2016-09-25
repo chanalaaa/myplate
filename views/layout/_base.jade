@@ -18,12 +18,13 @@ html
 			//-link(rel="shortcut icon", type="image/x-icon", href="")
 		link(rel="stylesheet" href="css/style.css")
 
+
+
+	block var
+		-var currentPage = "home"
 	body
-		#wrapper
-			block var
-				-var currentPage = "home"
-			block body
-				p this content
+		block body
+			p this content
 		
 		block js
 			//- script here
