@@ -60,6 +60,15 @@ abbr[title] {
     text-decoration: underline dotted;
 }
 
+dl,
+h3,
+menu,
+ol,
+p,
+pre {
+    margin: .1em 0
+}
+
 b,
 strong {
     font-weight: inherit;
