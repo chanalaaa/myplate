@@ -1,1 +1,18 @@
 node_modules
+
+.sass-cache/
+*.css.map
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+*.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
